@@ -20,7 +20,7 @@ public class LibraryTest {
 		Loan loan = stu.Loan(book1);
 		System.out.println(stu.toString());
 		
-		System.out.println("----------学生借书2。1：正常----------");
+		System.out.println("----------学生借书2.1：正常----------");
 		Book book2 = new Book("101112", "AngulsrJS权威教程2");
 		loan = stu.Loan(book2);
 		System.out.println(stu.toString());
